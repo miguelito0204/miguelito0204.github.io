@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">;
+    <script src="https://kit.fontawesome.com/34878f3653.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Portfolio</a></li>
+                    <li><a href="#portfolio">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            <p>Content Writer</p>
+            <h1>Hi, I'm Juan<span> Miguel</span><br> from Philippines</h1>
+        </div>
+    </div>
+</div>
+<!---------about------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="aboutcol1">
+                <img src="images/user.png">
+            </div>
+            <div class="aboutcol2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nemo consequatur excepturi dicta obcaecati, explicabo similique quod vero minus ipsam cum unde natus reiciendis odit quae deleniti repudiandae aliquid exercitationem.</p>
+
+                <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Content Writer</span><br>Writing informative and engaging articles</li>
+                    <li><span>Photo Editing</span><br>Editing images</li>
+                    <li><span>Video Editing</span><br>Editing clips and short videos for social media reels</li>
+                    <li><span>Communication</span><br>English Fluency</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2021 - Current</span><br>Freelance Content Writer</li>
+                    <li><span>2020 - 2021</span><br>Freelance Data Encoder</li>
+                    <li><span>2013 - 2016</span><br>Freelance Photo Editor</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2020 - Current</span><br>BSIT at STI College of Novaliches</li>
+                    <li><span>2018 - 2020</span><br>Senior High School at La Consolacion College of Novaliches</li>
+                    <li><span>2012 - 2014</span><br>Junior High School at International Christian School of Quezon City</li>
+                    <li><span>2006 - 2012</span><br>Elementary School at Deparo Elementary School</li>
+                </ul>
+            </div>
+    </div>
+</div>
+</div>
+</div>
+<!-------------------services-----------  -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Content Writer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio ea nobis eum mollitia beatae, illo sequi accusamus totam dolorum. Numquam debitis repellendus iste modi. Eveniet reprehenderit repellat magnam odio.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Content Writer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio ea nobis eum mollitia beatae, illo sequi accusamus totam dolorum. Numquam debitis repellendus iste modi. Eveniet reprehenderit repellat magnam odio.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Content Writer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio ea nobis eum mollitia beatae, illo sequi accusamus totam dolorum. Numquam debitis repellendus iste modi. Eveniet reprehenderit repellat magnam odio.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------portfolio----------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Random Thing</h3>
+                    <p>It's because i don't have anything to showcase 'LMAO'</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Random Thing</h3>
+                    <p>It's because i don't have anything to showcase 'LMAO' </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Random Thing</h3>
+                    <p>It's because i don't have anything to showcase 'LMAO'</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!---------------------contact-------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>iamjmdabad04@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>09123456789</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/iggyegie"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.reddit.com"><i class="fa-brands fa-reddit"></i></a>
+                    <a href="https://www.linkedin.com/in/juan-abad-62539b25a/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/chimichanga.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="E-Mail" placeholder="Your E-Mail Address" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made by Juan Miguel Abad</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+} 
+</script>
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwSeq8Kt5LyYUYNr7_N6XJxdmSceBW5jnaDmWZeVc3kKCdaLd7gEFUrcDlNohk8cxU5Pw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
